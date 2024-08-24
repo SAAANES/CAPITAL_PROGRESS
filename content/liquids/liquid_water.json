@@ -1,1 +1,24 @@
+{
+  "type": "CellLiquid",
+  "coolant": false,
+  "moveThroughBlocks": true,
+  "canStayOn": [],
+  "incinerable": true,
+  "spreadDamage": 0,
+  "capPuddles": true,
+  "name": "[blue]Water",
+  "description": "Water.",
+  "heatCapacity": 0.3,
+  "explosiveness": 0,
+  "temperature": 1.5,
+  "color": "FF7733FF",
+  "blockReactive": true,
+  "maxSpread": 1,
+  "viscosity": 0.95,
+  "flammability": 0,
+  "research": {
+    "parent": "magnum"
+  }
+}
+
 
