@@ -8,16 +8,16 @@
   "capPuddles": true,
   "name": "[blue]Water",
   "description": "Water.",
-  "heatCapacity": 0.3,
+  "heatCapacity": 0.4,
   "explosiveness": 0,
-  "temperature": 1.5,
-  "color": "FF7733FF",
+  "temperature": 0.5,
+  "color": "596ab8",
   "blockReactive": true,
   "maxSpread": 1,
-  "viscosity": 0.95,
+  "viscosity": 0.4,
   "flammability": 0,
   "research": {
-    "parent": "magnum"
+    "parent": "lava"
   }
 }
 
