@@ -1,1 +1,48 @@
-
+{
+  "type": "GenericCrafter",
+  "name": "Water condenser",
+  "description": "Generate water",
+  "outputItem": "water/1",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawBlurSpin",
+        "suffix": "-spinner",
+        "rotateSpeed": -3.25
+      }
+    ]
+  },
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "craftTime": 30,
+  "updateEffect": "pulverizeSmall",
+  "consumes": {
+    "power": 4,
+    "items": {
+      "items": [
+        {
+          "item": "magnum_",
+          "amount": 2
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "magnum",
+      "amount": 30
+    }
+  ],
+  "category": "crafting",
+  "research": {
+    "parent": "magnum_drill"
+  },
+  "ambientSound": "respawning",
+  "ambientSoundVolume": 0.2
+}
