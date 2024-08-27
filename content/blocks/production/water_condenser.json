@@ -10,5 +10,8 @@
   "updateEffect": "SmokeBig"
   "consumes": {
     "power": 0.7,
-  }
-}
+  },
+  "requirements": [
+    {"item": "magnum", "amount": 999}
+  ],
+  
