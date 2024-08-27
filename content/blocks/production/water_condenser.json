@@ -9,4 +9,6 @@
   "craftTime": 60,
   "updateEffect": "SmokeBig"
   "consumes": {
-    "power": 12355
+    "power": 0.7,
+  }
+}
