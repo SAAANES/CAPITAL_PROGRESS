@@ -15,5 +15,9 @@
     {"item": "magnum", "amount": 999}
   ],
   "category": "crafting",
+  "research": {
+    "parent": ""
+  },
   "idleSound": "respawning",
-  "idleSoundVolume": 0.3,
+  "idleSoundVolume": 0.3
+}
