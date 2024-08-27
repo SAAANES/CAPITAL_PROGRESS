@@ -1,48 +1,50 @@
 {
   "type": "GenericCrafter",
   "name": "Water condenser",
-  "description": "Generate water",
-  "outputItem": "water/1",
+  "description": "Generates water from atmospheric vapor",
+  "size": 3,
+  "hasPower": true,
+  "hasLiquids": true,
+  "craftTime": 120,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "pulverizeMedium",
+  "consumes": {
+    "power":2.6,
+    "liquid":"liquid_lava/0.2",
+        "items": {
+      "items": [
+        "voltrum/1",
+        "magnum/1"
+      ]
+  }
+  },
+  "outputItem": "volmat/1",
+  "requirements":[
+    {"item": "voltrum","amount":65},
+    {"item": "crystal","amount":50}
+   ],
+  "category": "crafting",
+  "idleSound": "respawning",
+  "idleSoundVolume":0.3,
   "drawer": {
-    "type": "DrawMulti",
-    "drawers": [
+  "type": "DrawMulti",
+  "drawers": [
       {
         "type": "DrawDefault" 
-      },
-      {
-        "type": "DrawBlurSpin",
-        "suffix": "-spinner",
-        "rotateSpeed": -3.25
       }
-    ]
-  },
-  "size": 2,
-  "hasPower": true,
-  "hasLiquids": false,
-  "hasItems": true,
-  "craftTime": 30,
-  "updateEffect": "pulverizeSmall",
-  "consumes": {
-    "power": 4,
-    "items": {
-      "items": [
-        {
-          "item": "magnum_",
-          "amount": 2
-        }
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-top",
+        "color": "dbaf85"
+      }
       ]
-    }
   },
-  "requirements": [
-    {
-      "item": "magnum",
-      "amount": 30
-    }
-  ],
-  "category": "crafting",
   "research": {
-    "parent": "magnum_drill"
-  },
-  "ambientSound": "respawning",
-  "ambientSoundVolume": 0.2
+  "parent": "magnum_shredder",
+  "requirements":
+  [
+    {"item": "magnum", "amount": 1000},
+    {"item": "voltrum", "amount": 750}
+  ]
+  }
 }
