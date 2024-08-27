@@ -16,7 +16,7 @@
   ],
   "category": "crafting",
   "research": {
-    "parent": ""
+    "parent": "volmat_smelter"
   },
   "idleSound": "respawning",
   "idleSoundVolume": 0.3
